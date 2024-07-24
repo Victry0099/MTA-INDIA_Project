@@ -6,6 +6,7 @@ const Home = lazy(() => import("./pages/Home/Home"));
 const About = lazy(() => import("./pages/About/About"));
 const Courses = lazy(() => import("./pages/Courses/Courses"));
 const Contact = lazy(() => import("./pages/Contact/Contact"));
+const PopupForm = lazy(() => import("./components/PopupForm/PopupForm"));
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Router>
         <Suspense fallback={<div>Loading...</div>}>
           <Navbar />
+          {/* <PopupForm /> */}
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route path="/about" element={<About />} />

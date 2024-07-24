@@ -47,12 +47,12 @@ const Navbar = () => {
               About
             </NavLink>
             <NavLink
-              to="/programs"
+              to="/certificate"
               className={({ isActive }) =>
                 `${linkClasses({ isActive })} text-xl`
               }
             >
-              Programs
+              Certificate
             </NavLink>
             <div className="relative">
               <button
@@ -91,7 +91,7 @@ const Navbar = () => {
               )}
             </div>
             <NavLink
-              to="/registration"
+              to="/contact"
               className={({ isActive }) =>
                 `${linkClasses({ isActive })} text-xl`
               }
@@ -114,7 +114,7 @@ const Navbar = () => {
           </div>
         </div>
         {isOpen && (
-          <div className="md:hidden flex flex-col ">
+          <div className="md:hidden flex flex-col">
             <NavLink
               to="/"
               className={({ isActive }) =>
@@ -147,7 +147,7 @@ const Navbar = () => {
                 Courses
               </button>
               {isDropdownOpen && (
-                <div className="absolute bg-gray-100 shadow-lg rounded mt-2">
+                <div className="absolute bg-gray-200 shadow-lg rounded mt-2">
                   <NavLink
                     to="/courses/course1"
                     className={({ isActive }) =>
@@ -176,7 +176,7 @@ const Navbar = () => {
               )}
             </div>
             <NavLink
-              to="/registration"
+              to="/contact"
               className={({ isActive }) =>
                 `${linkClasses({ isActive })} text-lg`
               }
