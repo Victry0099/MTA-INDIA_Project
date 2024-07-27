@@ -32,9 +32,9 @@ const Home = () => {
               individuals looking to upgrade their skills and advance their
               careers in the fast-growing tech industry. Offering a plethora of
               IT courses, including popular courses such as Web Development
-              courses and Software classes in Noida, the Institute provides
-              hands-on training and practical experience to help students stay
-              ahead of the curve.
+              courses and Software classes in Noida, Institute provides hands-on
+              training and practical experience to help students stay ahead of
+              the curve.
             </p>
             <a href="">
               <button className="bg-purple-300 py-2 px-5 rounded-lg border-2 border-black text-lg font-semibold ms-12 mt-7">
