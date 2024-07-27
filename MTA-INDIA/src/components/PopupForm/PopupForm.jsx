@@ -11,7 +11,7 @@ const PopupForm = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setShowPopup(true);
-    }, 30000); // Show the popup every 30 seconds
+    }, 10000); // Show the popup every 30 seconds
 
     return () => clearInterval(interval); // Cleanup the interval on component unmount
   }, []);

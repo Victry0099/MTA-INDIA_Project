@@ -13,14 +13,14 @@ import { MdOutgoingMail } from "react-icons/md";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-blue-900">
-        <div className="pt-14 pb-5">
-          <div className="container mx-auto px-2 text-white">
-            <div className="grid md:grid-cols-4 gap-3">
-              <div className=" sm:mt-0 mt-4 sm:ml-0 ml-5 px-5">
+      <footer className="bg-blue-100">
+        <div className="pt-8 pb-5">
+          <div className="container mx-auto px-2 text-black">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3">
+              <div className="px-5 sm:mt-0 mt-4">
                 <div className="text-cyan-600 font-semibold text-2xl font-sans tracking-wide">
                   <p>MTA-INDIA</p>
-                  <p className="text-white font-normal text-xs font-sans">
+                  <p className="text-black font-normal text-xs font-sans">
                     We Make IT Professional
                   </p>
                 </div>
@@ -32,111 +32,130 @@ const Footer = () => {
                 </p>
               </div>
 
-              <div className=" sm:mt-0 mt-10 sm:ml-0 ml-5">
-                <h1 className="text-xl font-bold mb-4"> Quick Links </h1>
-                <ul className="list-disc pl-5 space-y-2 text-slate-300">
+              <div className="sm:ml-0 ml-5">
+                <h1 className="text-xl font-bold mb-4">Quick Links</h1>
+                <ul className="list-disc pl-5 space-y-2 text-slate-950">
                   <li>
-                    <a href="#">Home</a>
+                    <a href="#" className="hover:text-green-400">
+                      Home
+                    </a>
                   </li>
                   <li>
-                    <a href="#">About</a>
+                    <a href="#" className="hover:text-green-400">
+                      About
+                    </a>
                   </li>
                   <li>
-                    <a href="#">Services</a>
+                    <a href="#" className="hover:text-green-400">
+                      Services
+                    </a>
                   </li>
-
                   <li>
-                    <a href="#">Courses</a>
+                    <a href="#" className="hover:text-green-400">
+                      Courses
+                    </a>
                   </li>
-
                   <li>
-                    <a href="#">Gallery</a>
+                    <a href="#" className="hover:text-green-400">
+                      Gallery
+                    </a>
                   </li>
-
                   <li>
-                    <a href="#">Our Blog</a>
+                    <a href="#" className="hover:text-green-400">
+                      Our Blog
+                    </a>
                   </li>
-
                   <li>
-                    <a href="#">Contact Us</a>
+                    <a href="#" className="hover:text-green-400">
+                      Contact Us
+                    </a>
                   </li>
                 </ul>
               </div>
 
-              <div className=" sm:mt-0 mt-10 sm:ml-0 ml-5">
-                <h1 className="text-xl font-bold mb-4"> Popular Courses </h1>
-                <ul className="list-disc pl-5 space-y-2 text-slate-300">
+              <div className="sm:ml-0 ml-5">
+                <h1 className="text-xl font-bold mb-4">Popular Courses</h1>
+                <ul className="list-disc pl-5 space-y-2 text-slate-950">
                   <li>
-                    <a href="#">Machine Learning</a>
+                    <a href="#" className="hover:text-green-400">
+                      Machine Learning
+                    </a>
                   </li>
                   <li>
-                    <a href="#">Data Analytics</a>
-                  </li>
-
-                  <li>
-                    <a href="#">Cloud Computing</a>
+                    <a href="#" className="hover:text-green-400">
+                      Data Analytics
+                    </a>
                   </li>
                   <li>
-                    <a href="#">MERN Stack</a>
+                    <a href="#" className="hover:text-green-400">
+                      Cloud Computing
+                    </a>
                   </li>
                   <li>
-                    <a href="#">Java Full Stack</a>
+                    <a href="#" className="hover:text-green-400">
+                      MERN Stack
+                    </a>
                   </li>
                   <li>
-                    <a href="#">.dot Net Full Stack</a>
+                    <a href="#" className="hover:text-green-400">
+                      Java Full Stack
+                    </a>
                   </li>
                   <li>
-                    <a href="#">Python Full Satck</a>
+                    <a href="#" className="hover:text-green-400">
+                      .dot Net Full Stack
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="hover:text-green-400">
+                      Python Full Stack
+                    </a>
                   </li>
                 </ul>
               </div>
 
-              <div className="footer-block-four sm:mt-0 mt-10 sm:ml-0 ml-5">
-                <h1 className="text-xl font-bold mb-4"> More imformation </h1>
-                <ul className="text-slate-300">
+              <div className="sm:ml-0 ml-5">
+                <h1 className="text-xl font-bold mb-4">More Information</h1>
+                <ul className="text-slate-950">
                   <li className="flex my-2">
-                    <IoIosCall className="text-2xl mr-2 text-red-500" />
-                    <a href="#">+91-987543234</a>
+                    <IoIosCall className="text-2xl mr-2 text-green-500" />
+                    <p>+91-987543234</p>
                   </li>
                   <li className="flex my-2">
-                    <MdOutgoingMail className="text-2xl mr-2 text-red-500" />
+                    <MdOutgoingMail className="text-2xl mr-2 text-green-500" />
                     <a href="#">example@mail.com</a>
                   </li>
                   <li className="flex my-2">
-                    <FaGlobeAmericas className="text-xl mr-2 text-red-500" />
+                    <FaGlobeAmericas className="text-xl mr-2 text-green-500" />
                     <a href="#">www.mtaindia.org</a>
                   </li>
                 </ul>
 
-                <h1 className="text-xl font-bold mt-8 mb-5"> Follow Us </h1>
+                <h1 className="text-xl font-bold mt-8 mb-5">Follow Us</h1>
 
-                <ul className="flex text-slate-300">
-                  <li className="mr-1 rounded-full p-3 bg-slate-300 text-red-500">
-                    <a href="#">
+                <ul className="flex space-x-2 text-slate-300">
+                  <li className="rounded-full p-3 bg-slate-300 text-red-500 hover:bg-cyan-300">
+                    <a href="#" target="_blank">
                       <FaFacebookF />
                     </a>
                   </li>
-
-                  <li className="mr-1 rounded-full p-3 bg-slate-300 text-red-500">
-                    <a href="#">
+                  <li className="rounded-full p-3 bg-slate-300 text-red-500 hover:bg-cyan-300">
+                    <a href="#" target="_blank">
                       <FaInstagram />
                     </a>
                   </li>
-
-                  <li className="mr-1 rounded-full p-3 bg-slate-300 text-red-500">
-                    <a href="#">
+                  <li className="rounded-full p-3 bg-slate-300 text-red-500 hover:bg-cyan-300">
+                    <a href="#" target="_blank">
                       <FaTwitter />
                     </a>
                   </li>
-
-                  <li className="mr-1 rounded-full p-3 bg-slate-300 text-red-500">
-                    <a href="#">
+                  <li className="rounded-full p-3 bg-slate-300 text-red-500 hover:bg-cyan-300">
+                    <a href="#" target="_blank">
                       <FaLinkedinIn />
                     </a>
                   </li>
-
-                  <li className="mr-1 rounded-full p-3 bg-slate-300 text-red-500">
-                    <a href="#">
+                  <li className="rounded-full p-3 bg-slate-300 text-red-500 hover:bg-cyan-300">
+                    <a href="#" target="_blank">
                       <FaYoutube />
                     </a>
                   </li>
@@ -147,7 +166,7 @@ const Footer = () => {
         </div>
 
         <div className="pb-3">
-          <p className="text-center text-white">
+          <p className="text-center text-black">
             Copyright &copy; 2024. All Rights Reserved By{" "}
             <a href="#" className="text-red-500 font-semibold">
               www.mtaindia.org

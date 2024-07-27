@@ -1,26 +1,29 @@
 export const internshipProgram = [
   {
     id: 1,
-    image: "imges/img",
+    bgcolor: "bg-green-100",
+    image: "images/g4.jpg",
     link: "/about",
     program_title: "Summer Internship",
     description:
-      "Improve you technical skills for making your career in top mnc",
+      "Enhance your coding skills and improve your chances to be selected in top MNCs through winter internship program",
   },
   {
     id: 2,
-    image: "imges/img",
+    bgcolor: "bg-pink-200",
+    image: "images/g5.jpg",
     program_title: "Winter Internship",
     link: "/about",
     description:
-      "Improve you technical skills for making your career in top mnc",
+      " Experience the corporate environment through Internship training program and meet the requirement deadline with proper guidance",
   },
   {
     id: 3,
-    image: "imges/img",
+    bgcolor: "bg-purple-200",
+    image: "images/g7.jpg",
     link: "/about",
-    program_title: "Indestrial Internship",
+    program_title: "Industrial Training",
     description:
-      "Improve you technical skills for making your career in top mnc",
+      "Industrial Internship  Training Program offers a rich pool of courses preparing the students & fresher to begin with their professional",
   },
 ];

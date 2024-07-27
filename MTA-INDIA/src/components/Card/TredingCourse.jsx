@@ -3,9 +3,11 @@ import { topCourses } from "../../Data/topCourse";
 
 const TredingCourse = () => {
   return (
-    <section className="my-10">
-      <h2 className="text-2xl font-medium uppercase underline text-center">
-        Trending Course
+    <section className="my-10 bg-slate-50">
+      <p className="text-cyan-500 ps-28 pt-4 tracking-widest">START LEARNING</p>
+      <h2 className="text-3xl pb-3 ps-28 font-medium">
+        Tranding Course {""}
+        <span className="text-emerald-400">Learn Start From Today</span>
       </h2>
 
       <div className="flex justify-center w-full h-full p-4">
