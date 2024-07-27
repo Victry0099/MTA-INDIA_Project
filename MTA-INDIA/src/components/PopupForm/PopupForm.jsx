@@ -20,7 +20,7 @@ const PopupForm = () => {
     <div className="relative">
       {showPopup && (
         <div className="fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-75 z-50">
-          <div className="bg-gradient-to-r from-blue-300 via-purple-300 to-pink-300 p-8 rounded-lg shadow-lg relative max-w-3xl w-full">
+          <div className="bg-gradient-to-r from-blue-100 via-purple-100 to-pink-100 p-8 rounded-lg shadow-lg relative max-w-3xl w-full">
             <button
               onClick={handleClose}
               className="absolute top-2 right-2 text-gray-500 hover:text-red-600"

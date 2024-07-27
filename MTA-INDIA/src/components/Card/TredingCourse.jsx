@@ -32,5 +32,4 @@ const TredingCourse = () => {
     </section>
   );
 };
-
 export default TredingCourse;
